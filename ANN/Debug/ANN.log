@@ -1,0 +1,60 @@
+﻿  ANN.cpp
+c:\users\fuentejo\source\repos\ann\ann\ann.cpp(42): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\fuentejo\source\repos\ann\ann\ann.cpp(87): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\fuentejo\source\repos\ann\ann\ann.cpp(136): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(158): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(278): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(277): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(842): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,int,int,int,0>(_Tag,_This2 &&,int &&,int &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(841): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Exact_args_t,int,int,int,0>(_Tag,_This2 &&,int &&,int &&)' being compiled
+          with
+          [
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(293): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,int,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(291): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,_Ty,0,1,2,0>(_Tag,_Tpl &&,std::integer_sequence<unsigned int,0,1,2>)' being compiled
+          with
+          [
+              _Ty=std::tuple<int,int,int>,
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(453): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,int,int>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\tuple(452): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<std::_Unpack_tuple_t,std::tuple<int,int,int>,0>(_Tag,_Tpl &&)' being compiled
+          with
+          [
+              _Tag=std::_Unpack_tuple_t,
+              _Tpl=std::tuple<int,int,int>
+          ]
+  c:\users\fuentejo\source\repos\ann\ann\ann.cpp(205): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<int,int,int,0,0>(std::tuple<int,int,int> &&)' being compiled
+  c:\users\fuentejo\source\repos\ann\ann\ann.cpp(201): note: see reference to function template instantiation 'std::tuple<float,float,float>::tuple<int,int,int,0,0>(std::tuple<int,int,int> &&)' being compiled
+  ANN.vcxproj -> C:\Users\fuentejo\source\repos\ANN\Debug\ANN.exe
